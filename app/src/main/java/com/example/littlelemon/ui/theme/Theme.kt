@@ -9,7 +9,9 @@ import androidx.compose.ui.graphics.Color
 val Purple700 = Color(0xFFEE9972)
 
 private val LightColorPalette = lightColors(
+    primary = LittleLemonColor.yellow,
     primaryVariant = Purple700,
+    secondary = LittleLemonColor.pink
 )
 
 @Composable
